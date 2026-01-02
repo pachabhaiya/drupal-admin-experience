@@ -28,6 +28,7 @@ config:
       - gin.settings
       - navigation.block_layout
       - navigation.settings
+      - system.menu.content
   actions:
     system.theme:
       simpleConfigUpdate:
