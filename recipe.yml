@@ -26,6 +26,8 @@ config:
       - block.block.gin_page_title
       - block.block.gin_primary_local_tasks
       - gin.settings
+      - navigation.block_layout
+      - navigation.settings
   actions:
     system.theme:
       simpleConfigUpdate:
