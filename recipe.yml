@@ -9,6 +9,7 @@ install:
   - navigation_extra_tools
 
 config:
+  strict: false
   import:
     gin:
       - block.block.gin_breadcrumbs
