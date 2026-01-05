@@ -33,3 +33,24 @@ config:
     system.theme:
       simpleConfigUpdate:
         admin: gin
+    block.block.gin_page_title:
+      createIfNotExists:
+        theme: gin
+        plugin: page_title_block
+        settings:
+          id: page_title_block
+          label: 'Page title'
+          label_display: '0'
+          provider: core
+      setRegion: header
+      setStatus: true
+    block.block.gin_admin:
+      setStatus: false
+    block.block.gin_branding:
+      setStatus: false
+    block.block.gin_local_tasks:
+      setStatus: false
+    block.block.gin_primary_local_tasks:
+      setStatus: false
+    block.block.gin_tools:
+      setStatus: false
