@@ -7,12 +7,12 @@ install:
   - file
   - layout_builder
   - layout_discovery
+  - dashboard
   - claro
   - gin
   - gin_toolbar
   - navigation
   - navigation_extra_tools
-  - dashboard
 
 config:
   strict: false
